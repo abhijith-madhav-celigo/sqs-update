@@ -1,0 +1,17 @@
+{
+  "name": "sqs-update",
+  "version": "1.0.0",
+  "description": "A simple Node.js app to delete AWS SQS queues.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=22.11.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.540.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
